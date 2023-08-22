@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background: #fff;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+
+}
+.para{
+    text-align: center;
+    font-size: 30px;
+}
+
+section .para h4{
+    margin-top: 10%;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.dclic{
+    display: flex;
+    font-size: 50px;
+}
+
+.une{
+    color: red;
+}
+.deux{
+    color: green;
+}
+.trois{
+    color: #440744;
+}
+.quatre{
+    color: yellow;
+}
+.cinq{
+    color: red;
+}
+.six{
+    color: #0084ff;
+}
+
+
+.nav{
+    display: flex;
+    position: relative;  
+}
+
+.nav li{
+    list-style: none;   
+}
+.nav a{
+    color: #111; 
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+
+}
+.button{
+    padding: 10px 20px;
+    background: red;
+    margin-top: -10px;
+    text-transform: uppercase;  
+}
+
+.button:hover{
+    background: red;
+    transition: ease-out;
+}
+
+header .nav li a:hover{
+    color: #380238;
+    border-bottom: 2px solid red ;
+}
+
+
+p{
+    font-weight: 300;
+    color: #111;
+}
+.programme{
+    padding: 150px;
+    color: #111;
+}
+
+.form{
+    display: flex;
+}
+
+ section .right img{
+    width: 600px;
+    height: 350px;
+    margin-top: 150px;
+    
+}
+
+.actualite{
+ margin-left: 100px;
+ display: flex;
+}
+
+section .actualite .imbox img{
+    width: 700px;
+    height: 400px;
+}
+
+.photo h1{
+    text-align: center;
+}
+
+.francophonie img{
+    width: 100%;
+    /* height: 50%; */
+    margin-top: 10%;
+
+}
+
+.copinright{
+    padding: 20px 40px;
+    border-top: 2px solid rgba(0,0,0,0.1);
+    background: rgba(228,222,228,);
+    text-align:center ;
+}
+
+.copinright p:nth-child(1){
+    color: #333;
+}
+
+.copinright a {
+    color: #fd911f;
+    text-decoration: none;
+    font: weight 600px;
+    font-style:italic ;
+}

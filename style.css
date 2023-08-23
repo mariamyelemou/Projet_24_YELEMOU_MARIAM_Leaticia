@@ -306,10 +306,11 @@ section .actualite .imbox img{
   }
 
   section .design img{
-    height: 500px;
+    /* height: 500px; */
   }
   
   .nous-recrutons img{
+    
     width: 100%;
 
   }
@@ -322,4 +323,7 @@ section .actualite .imbox img{
     width: 100%;
   }
 
+ .des-paroles embed{
+    width: 100%;
+ }
   

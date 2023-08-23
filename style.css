@@ -158,3 +158,168 @@ section .actualite .imbox img{
     font: weight 600px;
     font-style:italic ;
 }
+
+/* section .femme{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(inform.avif);
+        background-size: cover;
+} */
+
+
+.btn-1{
+    font-size: 1em;
+    color: #fff;
+    background: deepskyblue;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn-1:hover{
+    letter-spacing: 4px;
+}
+
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+
+.btn-2{
+    font-size: 1em;
+    color: #fff;
+    background: deepskyblue;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn-3{
+    font-size: 1em;
+    color: #fff;
+    background: burlywood;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: -55%; 
+}
+
+
+.btn-2:hover{
+    letter-spacing: 4px;
+}
+.footer{
+    padding: 100px 50px;
+    background: brown;
+}
+.franco{
+    
+    background: #fff;
+    padding: 50px 30px;
+}
+
+.franco p{
+    color: #111;
+    
+}
+.franco h4{
+    color: #111;
+}
+
+.franco h3{
+    color: #111;
+}
+
+/* .contactform{
+    display: flex;
+    background: deepskyblue;
+    justify-content: space-between;
+}
+.contactform h3{
+    color: #111;
+} */
+
+.contactform{
+    padding: 75px 50px;
+    background: brown;
+    box-shadow: 5px 15px 50px rgba(0,0,0,0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 50px;
+}
+.contactform .inputboite{ 
+    position: relative;
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+
+.contactform h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.contactform .inputboite input,
+.contactform .inputboite textarea{
+    width: 100%; 
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+  }
+
+.design{
+    padding-top: 10%;
+    position: relative;
+    /* height: 100vh; */
+    display: flex;
+    /* background-size: cover; */
+    /* background-image: url(nous-recrutons.png); */
+    
+  }
+
+  section .design img{
+    height: 500px;
+  }
+  
+  .nous-recrutons img{
+    width: 100%;
+
+  }
+
+  .bootstrap{
+    padding-top: 10%;
+  }
+
+  .group img{
+    width: 100%;
+  }
+
+  
